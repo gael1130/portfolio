@@ -1,0 +1,237 @@
+
+h1 {
+  font-size: 4rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: white;
+  background: #2B2E4A;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 140px 20vw;
+}
+
+.blue {
+  background: #4c4cff;
+  /* overflow: hidden; */
+}
+
+.red {
+  background: #E84545;
+}
+
+.pink {
+  background: #e84644;
+  overflow: hidden;
+}
+
+.dark {
+  background: #332628;
+  overflow: hidden;
+}
+
+.yellow{
+  background: #FFD369;
+  color: #2a2e4b;
+}
+
+.green {
+  background: #57CC99;
+  color: #2a2e4b;
+}
+
+.bubble::after {
+  content: '';
+  border-top-left-radius: 50% 100%;
+  border-top-left-radius: 50% 100%;
+  position: absolute;
+  bottom: 0;
+  height: 85%;
+  width: 100%;
+  background-color: #E84545;
+  z-index: -1;
+}
+
+.spacer {
+aspect-ratio: 960/200;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.layer1 {
+background-image: url('./layer1.svg');
+}
+
+.layer1-blue {
+background-image: url('./layer1-blue.svg');
+}
+
+/* .layer1 {
+background-image: url('./layered-waves-haikei.svg');
+} */
+
+.layer2 {
+background-image: url('./layer2.svg');
+}
+
+.layer3 {
+background-image: url('./layer3.svg');
+}
+
+.layer4 {
+background-image: url('./wave-top-blue-2.svg');
+}
+
+.flip {
+transform: rotate(180deg);
+}
+
+.blob-motion {
+position: absolute;
+transform: translateY(-20%);
+z-index: 0;
+}
+
+.blob-content {
+z-index: 1;
+}
+
+.wave {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.wave svg {
+position: relative;
+display: block;
+width: calc(100% + 1.3px);
+height: 150px;
+}
+
+.wave .shape-fill {
+fill: #2A2E4B;
+}
+
+.wave-red {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.wave-red svg {
+position: relative;
+display: block;
+width: calc(100% + 1.3px);
+height: 150px;
+}
+
+.wave-red .shape-fill {
+fill: #E84644;
+}
+
+.wave-yellow {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.wave-yellow svg {
+position: relative;
+display: block;
+width: calc(124% + 1.3px);
+height: 146px;
+}
+
+.wave-yellow .shape-fill {
+fill: #FFD369;
+}
+
+.custom-shape-divider-bottom-1632759227 {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1632759227 svg {
+position: relative;
+display: block;
+width: calc(157% + 1.3px);
+height: 119px;
+}
+
+.custom-shape-divider-bottom-1632759227 .shape-fill {
+fill: #4B4CFE;
+}
+
+.custom-shape-divider-bottom-1632759389 {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1632759389 svg {
+position: relative;
+display: block;
+width: calc(132% + 1.3px);
+height: 156px;
+}
+
+.custom-shape-divider-bottom-1632759389 .shape-fill {
+fill: #2A2E4B;
+}
+
+.custom-shape-divider-bottom-1632759485 {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1632759485 svg {
+position: relative;
+display: block;
+width: calc(106% + 1.3px);
+height: 173px;
+}
+
+.custom-shape-divider-bottom-1632759485 .shape-fill {
+fill: #E84644;
+}

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gael Landing Page</title>
 
+    <link rel="stylesheet" href="style.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -22,250 +24,11 @@
 
     <!-- To make BootStrap Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <style>
-                          h1 {
-                            font-size: 4rem;
-                          }
-                          p {
-                            font-size: 1.5rem;
-                          }
-
-                          body {
-                            margin: 0;
-                            font-family: font-family: 'Montserrat', sans-serif;
-                            color: white;
-                            background: #2B2E4A;
-                            overflow-x: hidden;
-                          }
-
-                          section {
-                            position: relative;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            min-height: 400px;
-                            padding: 140px 20vw;
-                          }
-
-                          .blue {
-                            background: #4c4cff;
-                            /* overflow: hidden; */
-                          }
-
-                          .red {
-                            background: #E84545;
-                          }
-
-                          .pink {
-                            background: #e84644;
-                            overflow: hidden;
-                          }
-
-                          .dark {
-                            background: #332628;
-                            overflow: hidden;
-                          }
-
-                          .yellow{
-                            background: #FFD369;
-                            color: #2a2e4b;
-                          }
-
-                          .green {
-                            background: #57CC99;
-                            color: #2a2e4b;
-                          }
-
-                          .bubble::after {
-                            content: '';
-                            border-top-left-radius: 50% 100%;
-                            border-top-left-radius: 50% 100%;
-                            position: absolute;
-                            bottom: 0;
-                            height: 85%;
-                            width: 100%;
-                            background-color: #E84545;
-                            z-index: -1;
-                          }
-
-                        .spacer {
-                          aspect-ratio: 960/200;
-                          width: 100%;
-                          background-repeat: no-repeat;
-                          background-position: center;
-                          background-size: cover;
-                        }
-
-                        .layer1 {
-                          background-image: url('./layer1.svg');
-                        }
-
-                        .layer1-blue {
-                          background-image: url('./layer1-blue.svg');
-                        }
-
-                        /* .layer1 {
-                          background-image: url('./layered-waves-haikei.svg');
-                        } */
-
-                        .layer2 {
-                          background-image: url('./layer2.svg');
-                        }
-
-                        .layer3 {
-                          background-image: url('./layer3.svg');
-                        }
-
-                        .layer4 {
-                          background-image: url('./wave-top-blue-2.svg');
-                        }
-
-                        .flip {
-                          transform: rotate(180deg);
-                        }
-
-                        .blob-motion {
-                          position: absolute;
-                          transform: translateY(-20%);
-                          z-index: 0;
-                        }
-
-                        .blob-content {
-                          z-index: 1;
-                        }
-
-                        .wave {
-                      position: absolute;
-                      bottom: 0;
-                      left: 0;
-                      width: 100%;
-                      overflow: hidden;
-                      line-height: 0;
-                      transform: rotate(180deg);
-                  }
-
-                  .wave svg {
-                      position: relative;
-                      display: block;
-                      width: calc(100% + 1.3px);
-                      height: 150px;
-                  }
-
-                  .wave .shape-fill {
-                      fill: #2A2E4B;
-                  }
-
-                  .wave-red {
-                      position: absolute;
-                      bottom: 0;
-                      left: 0;
-                      width: 100%;
-                      overflow: hidden;
-                      line-height: 0;
-                      transform: rotate(180deg);
-                  }
-
-                  .wave-red svg {
-                      position: relative;
-                      display: block;
-                      width: calc(100% + 1.3px);
-                      height: 150px;
-                  }
-
-                  .wave-red .shape-fill {
-                      fill: #E84644;
-                  }
-
-                  .wave-yellow {
-                      position: absolute;
-                      bottom: 0;
-                      left: 0;
-                      width: 100%;
-                      overflow: hidden;
-                      line-height: 0;
-                      transform: rotate(180deg);
-                  }
-
-                  .wave-yellow svg {
-                      position: relative;
-                      display: block;
-                      width: calc(124% + 1.3px);
-                      height: 146px;
-                  }
-
-                  .wave-yellow .shape-fill {
-                      fill: #FFD369;
-                  }
-
-                  .custom-shape-divider-bottom-1632759227 {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                width: 100%;
-                overflow: hidden;
-                line-height: 0;
-                transform: rotate(180deg);
-            }
-
-            .custom-shape-divider-bottom-1632759227 svg {
-                position: relative;
-                display: block;
-                width: calc(157% + 1.3px);
-                height: 119px;
-            }
-
-            .custom-shape-divider-bottom-1632759227 .shape-fill {
-                fill: #4B4CFE;
-            }
-
-            .custom-shape-divider-bottom-1632759389 {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          overflow: hidden;
-          line-height: 0;
-          transform: rotate(180deg);
-      }
-
-      .custom-shape-divider-bottom-1632759389 svg {
-          position: relative;
-          display: block;
-          width: calc(132% + 1.3px);
-          height: 156px;
-      }
-
-      .custom-shape-divider-bottom-1632759389 .shape-fill {
-          fill: #2A2E4B;
-      }
-
-      .custom-shape-divider-bottom-1632759485 {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          overflow: hidden;
-          line-height: 0;
-          transform: rotate(180deg);
-      }
-
-      .custom-shape-divider-bottom-1632759485 svg {
-          position: relative;
-          display: block;
-          width: calc(106% + 1.3px);
-          height: 173px;
-      }
-
-      .custom-shape-divider-bottom-1632759485 .shape-fill {
-          fill: #E84644;
-      }
-    </style>
   </head>
   <body>
     <section class="blue">
       <h1>(0) Welcome Home 😎</h1>
-      <h2>And a little test here and there </h2>
+      <h2>And a little test here and there</h2>
       <h3>say hello to my little friend</h3>
       <p>
         Hello friend, and welcome to Gaël's website. Here you will find the
@@ -273,6 +36,7 @@
         more. Add => NavBar, Header + Footer, About
       </p>
 
+      <!-- This is the wave separator -->
       <div class="wave">
         <svg
           data-name="Layer 1"
@@ -308,6 +72,7 @@
         video.
       </p>
 
+      <!-- This is the wave separator -->
       <div class="wave-red">
         <svg
           data-name="Layer 1"
@@ -342,6 +107,7 @@
         </p>
       </div>
 
+      <!-- This is my blob svg -->
       <svg
         class="blob-motion"
         id="visual"
@@ -371,15 +137,10 @@
         </g>
       </svg>
 
-      <script>
-        const tween = KUTE.fromTo(
-          "#blob1",
-          { path: "#blob1" },
-          { path: "#blob2" },
-          { repeat: 999, duration: 3000, yoyo: true }
-        ).start();
-      </script>
+      <!-- The blob animation JS -->
+      <script src="kuteBlobAnimation.js"></script>
 
+      <!-- wave separator -->
       <div class="custom-shape-divider-bottom-1632759227">
         <svg
           data-name="Layer 1"
@@ -409,6 +170,7 @@
       <h1>(3) Week 3 [w blob]</h1>
       <p>Add NLP (hugging face + reddit guy)</p>
 
+      <!-- wave separator -->
       <div class="custom-shape-divider-bottom-1632759389">
         <svg
           data-name="Layer 1"
@@ -440,6 +202,7 @@
         <p>NFT Project from scratch</p>
       </div>
 
+      <!-- wave separator -->
       <svg
         class="blob-motion"
         id="visual"
@@ -469,14 +232,10 @@
         </g>
       </svg>
 
-      <script>
-        const tween2 = KUTE.fromTo(
-          "#blob3",
-          { path: "#blob3" },
-          { path: "#blob4" },
-          { repeat: 999, duration: 3000, yoyo: true }
-        ).start();
-      </script>
+      <!-- The second blob animation JS -->
+      <script src="kuteBlob2.js"></script>
+
+      <!-- wave separator -->
 
       <div class="custom-shape-divider-bottom-1632759485">
         <svg
@@ -505,6 +264,8 @@
     <section class="red">
       <h1>(5) Week 5 class RED WAVE - OPACITY</h1>
       <p>Instagram for NFTs /chat for opensea</p>
+
+      <!-- wave separator -->
       <div class="wave-opacity">
         <svg
           data-name="Layer 1"
