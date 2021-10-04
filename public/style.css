@@ -235,3 +235,65 @@ height: 173px;
 .custom-shape-divider-bottom-1632759485 .shape-fill {
 fill: #E84644;
 }
+
+/* footer */
+.dark-text {
+  color: #2a2e4b;
+}
+/* This is for the icons */
+.footer-size {
+  font-size: 1.5rem;
+}
+.yt-icon {
+  color: #fe0000;
+}
+
+.linkedin-icon {
+  color: #0b65c3;
+}
+
+.gh-icon {
+  color: #161b21;
+}
+
+/*  to make YouTube icon spin */
+.spinner{
+  animation: mySpinner 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mySpinner {
+  from {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.twitter-icon {
+  color: #1d9bf0;
+}
+
+
+/* heart pulse */
+/* hat tip: https://www.florin-pop.com/blog/2019/03/css-pulse-effect/ */
+/* original idea: https://codepen.io/mfritsch/pen/xbJMaa */
+.heart {
+  animation: pulse .49s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
