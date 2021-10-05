@@ -6,6 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gael Landing Page</title>
 
+    <!-- favicon code -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
     <!-- BootStrap CSS -->
     <link
       rel="stylesheet"
@@ -23,13 +50,6 @@
     <!-- Kute for animations -->
     <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
 
-    <!-- JavaScript BootStrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-
     <!-- To make BootStrap Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -40,6 +60,109 @@
     ></script>
   </head>
   <body>
+    <!-- second header BootStrap -->
+
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+          <!-- I do not know yet how to add a good logo -->
+          <!-- <img src="/public/img/logo_transparent_svg.svg" alt="Gaël Gendre logo" width="130" height="130" class="d-inline-block align-top"> -->
+          G@ël Gendre
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="#navbarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ml-auto text-right">
+            <li class="nav-item">
+              <a href="#" class="nav-link">NLP</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">NFT</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Rich List</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+    <!-- <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a href="#" class="navbar-brand">Gaël Gendre</a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">NLP</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">NFT</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Rich List</a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <!-- Header Bootstrap below -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="/public/img/logo_transparent.png" width="10" height="10" alt="">
+
+
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Frequency Analysis</a>
+          </li>
+          <li class="nav_item">
+            <a class="nav-link" href="#">NLP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NFT</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav> -->
+
+    <!-- Header Bootstrap up -->
+
     <section class="blue">
       <h1>🔥 Welcome Home 🔥</h1>
       <p>
@@ -332,24 +455,35 @@
     <!-- BootStrap footer below -->
     <footer class="footer mt-auto py-3 bg-white footer-size">
       <div class="container">
-        <span class="dark-text"
-          >Made with <i class="fa fa-heart yt-icon heart"></i> in Montpellier.
-        </span>
+        <div class="d-flex justify-content-between">
+          <span class="dark-text"
+            >Made with <i class="fa fa-heart yt-icon heart"></i> in Montpellier.
+          </span>
 
-        <!-- my icons below -->
-        <a href="https://linkedin.com/in/gaelgendre"
-          ><i class="fab fa-linkedin-in linkedin-icon"></i
-        ></a>
-        <a href="https://youtu.be/GDyXXdf4Znc"
-          ><i class="fab fa-youtube yt-icon spinner"></i
-        ></a>
-        <a href="https://github.com/gael1130"
-          ><i class="fab fa-github gh-icon"></i
-        ></a>
-        <a href="https://twitter.com/GaelGendre"
-          ><i class="fab fa-twitter twitter-icon"></i
-        ></a>
+          <div>
+            <!-- my icons below -->
+            <a href="https://linkedin.com/in/gaelgendre" target="_blank"
+              ><i class="fab fa-linkedin-in linkedin-icon"></i
+            ></a>
+            <a href="https://youtu.be/GDyXXdf4Znc" target="_blank"
+              ><i class="fab fa-youtube yt-icon spinner"></i
+            ></a>
+            <a href="https://github.com/gael1130" target="_blank"
+              ><i class="fab fa-github gh-icon"></i
+            ></a>
+            <a href="https://twitter.com/GaelGendre" target="_blank"
+              ><i class="fab fa-twitter twitter-icon"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </footer>
+
+    <!-- JavaScript BootStrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
